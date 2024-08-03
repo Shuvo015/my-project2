@@ -62,10 +62,14 @@ nav li{
   .hamberger{
     display: block;
     color: white;
+    font-size: 35px;
+    margin-right: 140px;
   }
   nav{
-    margin: auto 20px;
-  }
+    margin: auto ;
+    margin-top: 30px;
+    width: 550px;
+    }
   }
 
     /* NAVBER END HERE */
@@ -170,6 +174,58 @@ nav li{
     font-size: 15px;
     color:#ffffff86;
   }
+
+.main-text{
+    text-align: center;
+    /* border: 1px solid red; */
+    margin: auto;
+    
+  }
+.main-para1{
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.main-para2{
+  color: #ffffff54;
+  font-size: 15px;
+}
+.main-div{
+  margin-top: 80px;
+}
+/* .main-text{
+  width: 300px;
+} */
+.main-div2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+/* .img-text-ph{
+  border: 1px solid red;
+} */
+.img-text-ph img{
+  border-radius: 50%;
+  width: 120%;
+}
+.main-text-img{
+  margin-top: 20px;
+  
+}
+.main-text-img h2{
+  color: #FFFFFF;
+  text-align: center;
+}
+.main-text-img p{
+  color: #ffffff54;
+  text-align: center;
+}
+
+
+
+
+
   @media screen and (max-width:576px){
     .header-main-div{
       flex-direction: column;
@@ -180,36 +236,83 @@ nav li{
       /* padding: 0px; */
       /* position: relative; */
      }
-     /* .Header-image{
-      margin:auto;
-      display: flex;
-      position: relative; */
-      .flaoting-div1{
-        position: absolute;
-        top:780px;
-        left: 20px;
-       }
-       .flaoting-div1 h2{
-        font-size: 20px;
-       }
-       .flaoting-div1 h3{
-        font-size: 15px;
-       }
-       .flaoting-div2{
-        position: absolute;
-        top:600px;
-        left: 220px;
-       }
-       .flaoting-div2 h2{
-        font-size: 20px;
-       }
-       .flaoting-div2 h3{
-        font-size: 13px;
-       }
-       
+     .header-text{
+      font-size:50px;
      }
+     .header-text2{
+      font-size: 13px;
+     }
+     .header-button1{
+      background-color: #E6533C;
+      padding: 18px;
+      color: #FFFFFF;
+      font-size: 15px;
+      border-radius: 25px;
+      border: none;
+      width: 150px;
+      margin: 30px 0px;
+     }
+     .header-button2{
+      background-color: #e6533c00;
+      padding: 18px;
+      color: #FFFFFF;
+      font-size: 15px;
+      border-radius: 25px;
+      border: none;
+      width: 150px;
+      margin: 30px 0px 10px 30px;
+      border:1px solid white;
+    }
+
+    .flaoting-div1{
+      position: absolute;
+      top:780px;
+      left: 20px;
+     }
+     .flaoting-div1 h2{
+      font-size: 20px;
+     }
+     .flaoting-div1 h3{
+      font-size: 15px;
+     }
+     .flaoting-div2{
+      position: absolute;
+      top:600px;
+      left: 220px;
+     }
+     .flaoting-div2 h2{
+      font-size: 20px;
+     }
+     .flaoting-div2 h3{
+      font-size: 13px;
+     }
+     .main-div2{
+      flex-direction: column;
+     }
+     .img-text-ph{
+        max-width: 350px;
+        text-align: center;
+     }
+     .img-text-ph img{
+      width:50%;
+      margin-top: 10px;
+     }
+    .main-para1{
+      font-size: 30px;
+      font-weight: bold;
+      
+    }
+    .main-para2{
+      font-size: 14px;
+    }
+    .main-text{
+      width:400px;
+      margin:0px
+    }
+
+  }
      
     
     
-    
+  
   
